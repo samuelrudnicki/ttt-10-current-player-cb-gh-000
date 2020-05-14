@@ -4,4 +4,5 @@ def turn_count(board)
     if (slot == " " || slot == "" || slot == nil)
       counter += 1
     end
+  end
 end
