@@ -3,4 +3,5 @@ def turn_count(board)
   board.each do |slot|
     if (slot == " " || slot == "" || slot == nil)
       counter += 1
+    end
 end
